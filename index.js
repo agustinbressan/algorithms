@@ -21,8 +21,10 @@ const insertionSortExample = () => {
     console.log(`insertionSort([${[100, 6, 5, 7, 7, 1, 2, 7]}]) => `, insertionSort([100, 6, 5, 7, 7, 1, 2, 7]));
 };
 
-(() => {
+const examples = () => {
     binarySearchExample();
     bubbleSortExample();
     insertionSortExample();
-})();
+};
+
+examples();
