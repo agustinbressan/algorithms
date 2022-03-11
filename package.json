@@ -1,0 +1,14 @@
+{
+  "name": "algorithms",
+  "description": "A bit of algorithm practice. Some of the most known for sort and search.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
